@@ -10,8 +10,8 @@ El desarrollo del backend se ha llevado a cabo utilizando Node.js y Express, ofr
 - PostgreSQL
 - Neon
 - Railway
-- dotenv
-- pg
+- dotenv, para gestionar variables de entorno
+- pg, para conectar NOde.js con PostgreSQL
 
 ## Endpoints principales
 
