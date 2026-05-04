@@ -17,9 +17,23 @@ El desarrollo del backend se ha llevado a cabo utilizando Node.js y Express, ofr
 
 Entre los endpoints que se han puesto en marcha se encuentran:
 
+### Categorías
+
 - GET /api/categorias
+- POST /api/categorias
+- PUT /api/categorias/:id
+- DELETE /api/categorias/:id
+
+### Recursos
+
 - GET /api/recursos
 - GET /api/categorias/:id/recursos
+- POST /api/recursos
+- PUT /api/recursos/:id
+- DELETE /api/recursos/:id
+
+### Prueba de conexión
+
 - GET /test-db
 
 ## Base de datos
