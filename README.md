@@ -42,11 +42,22 @@ La base de datos empleada es PostgreSQL y está localizada en Neon.
 
 El backend establece su conexión con la base de datos a través de una variable de entorno conocida como DATABASE_URL.
 
-Para garantizar la seguridad, no se incorpora el archivo .env en el repositorio.
+Para garantizar la seguridad, no se incorpora el archivo .env en el repositorio.(ver archivo .env.example como referencia)
+
+La estructura básica de la base de datos se encuentra en el archivo:
+
+`database/buencamino.sql`:En este archivo se definen las tablas principales del proyecto: `categorias` y `recursos`.
 
 ## Despliegue
 
 El backend se encuentra alojado en Railway, lo que permite que la aplicación de Android acceda a la API a través de una URL accesible públicamente.
+
+## Ejecución en local
+
+Para ejecutar el backend en local, primero se deben instalar las dependencias:
+
+```bash
+npm install
 
 ## Proyecto relacionado
 
