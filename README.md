@@ -11,7 +11,7 @@ El desarrollo del backend se ha llevado a cabo utilizando Node.js y Express, ofr
 - Neon
 - Railway
 - dotenv
-- pg
+- pg
 
 ## Endpoints principales
 
